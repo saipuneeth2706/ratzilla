@@ -1,3 +1,3 @@
-/target
-/dist
-/pkg
+dist
+target
+Cargo.lock

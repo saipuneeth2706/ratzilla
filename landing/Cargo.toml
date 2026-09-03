@@ -9,3 +9,9 @@ edition = "2021"
 ratatui = { version = "0.30.1", default-features = false }
 color-eyre = "0.6.5"
 ratzilla = "0.3.1"
+tachyonfx = { version = "0.25", default-features = false, features = ["wasm"] }
+critical-section = "1.2"
+wasm-bindgen-futures = "0.4"
+web-sys = { version = "0.3", features = ["Clipboard", "Navigator", "Window"] }
+web-time = "1"
+console_error_panic_hook = "0.1"
