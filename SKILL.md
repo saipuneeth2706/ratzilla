@@ -1,6 +1,6 @@
 ---
 name: ratzilla
-description: Build terminal-styled web apps and browser TUIs with Ratatui compiled to Rust+WebAssembly via Ratzilla, Ratatui's browser backend. Use whenever the user wants to run a terminal app in the browser, port an existing Ratatui/Crossterm TUI to the web, decide between the DOM, Canvas 2D, or GPU-accelerated WebGL2 backends, wire up trunk + wasm32-unknown-unknown builds, or translate browser keyboard/mouse events into TUI terms. Concrete triggers: "can I run my terminal app in the browser?", "run ratatui in a browser", "TUI in a web page", "wasm terminal app", "ratzilla", "browser backend for ratatui", "trunk serve a ratatui app", "terminal look website with Rust", "webgl tui", "dom vs canvas vs webgl2 backend".
+description: "Build terminal-styled web apps and browser TUIs with Ratatui compiled to Rust+WebAssembly via Ratzilla, Ratatui's browser backend. Use whenever the user wants to run a terminal app in the browser, port an existing Ratatui/Crossterm TUI to the web, decide between the DOM, Canvas 2D, or GPU-accelerated WebGL2 backends, wire up trunk + wasm32-unknown-unknown builds, or translate browser keyboard/mouse events into TUI terms. Concrete triggers: run ratatui in a browser, TUI in a web page, wasm terminal app, ratzilla, browser backend for ratatui, trunk serve a ratatui app, webgl tui, dom vs canvas vs webgl2 backend."
 ---
 
 # Ratzilla
