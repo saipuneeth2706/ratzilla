@@ -267,14 +267,13 @@ impl App {
         let mut regions = self.regions.borrow_mut();
         regions.clear();
 
-        let box_content_x = box_x + 1;
-        let copy_x = box_content_x + cmd_rendered - cmd_label.len() as u16;
+        // Entire command box (all 3 rows incl. borders) copies on click.
         regions.push(ClickableRegion {
             rect: Rect {
-                x: copy_x,
-                y: box_y + 1,
-                width: cmd_label.len() as u16,
-                height: 1,
+                x: box_x,
+                y: box_y,
+                width: box_width,
+                height: 3,
             },
             action: Action::CopyCommand,
         });
